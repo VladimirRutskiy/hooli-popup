@@ -144,6 +144,9 @@ img {
 .nav__popup:checked ~ .popup__submenu{
   display: flex;
 }
+.nav__popup:checked ~ .more__label{
+  display: none;
+}
 .more__label{
   display: flex;
   justify-content: center;
